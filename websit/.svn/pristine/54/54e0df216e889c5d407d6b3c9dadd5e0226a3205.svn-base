@@ -1,0 +1,397 @@
+.home-slider {
+    /*width: 1920px;*/
+    width: 100%;
+    /*height: 920px;*/
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-logo {
+    width: 100%;
+    height: 98px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 40;
+}
+
+.header-logo img {
+    width: 162px;
+    height: 58px;
+    margin: 20px 0 20px 46px;
+
+}
+
+.banner {
+    width: 100%;
+    /*height: 100%;*/
+    /*position: absolute;
+top: 0;
+left: 0;*/
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.banner .hidden {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(30, 42, 157, 0.49);*/
+    background: #1e2a9d;
+    opacity: 0.49;
+    /*兼容ie8*/
+    filter: Alpha(Opacity=49);
+    z-index: 20
+}
+
+.b-btn {
+    width: 24px;
+    height: 48px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 60px;
+    margin: 0 auto;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/*.banner>img:nth-child(2) {
+    z-index: 19;
+}*/
+
+/*.banner>img:nth-child(2) {
+    z-index: 18;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}*/
+.second {
+    z-index: 18;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*.banner>img:nth-child(3) {
+    z-index: 17;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}*/
+.third {
+    z-index: 17;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-info {
+    width: 604px;
+    height: 240px;
+    color: #fff;
+    position: absolute;
+    top: 306px;
+    left: 357px;
+    z-index: 22;
+}
+
+.banner-info h3 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.banner-info div {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.product {
+    width: 1920px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.product-center {
+    width: 100%;
+    height: 224px;
+    background-image: url("../img/Product.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.center-word {
+    width: 180px;
+    height: 60px;
+    border: 2px solid #1e489d;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 92px;
+    color: #1e489d;
+    font-size: 18px;
+    line-height: 56px;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+}
+
+.egoushe,
+.commodity-display {
+    width: 100%;
+    /*height: auto;*/
+}
+
+.e-logo {
+    width: 660px;
+    height: 775px;
+    margin-left: 298px;
+    float: left;
+}
+
+.e-introduce {
+    height: 775px;
+    width: 600px;
+    float: left;
+    margin-left: 189px;
+}
+
+.commodity-introduce h3,
+.e-introduce h3 {
+    font-size: 48px;
+    color: #1e489d;
+    font-weight: normal;
+    margin-top: 222px;
+    margin-bottom: 0;
+}
+
+.commodity-introduce h3 span,
+.e-introduce>h3>span {
+    display: inline-block;
+    height: 75px;
+    border-bottom: 2px solid #1e489d;
+}
+
+.message-show,
+.discount-show {
+    font-size: 24px;
+    color: #363636;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.message-explain,
+.discount-explain {
+    font-size: 16px;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
+
+.c-logo {
+    width: 660px;
+    height: 775px;
+    margin-right: 298px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commodity-introduce {
+    height: 775px;
+    width: 600px;
+    float: right;
+    margin-left: 189px;
+}
+
+.commodity-introduce h3 {
+    margin-top: 248px;
+}
+
+.aboutus {
+    width: 1920px;
+    margin: 0 auto;
+    margin-top: 84px;
+}
+
+.aboutus h2 {
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.aboutus span {
+    width: 100px;
+    display: block;
+    font-size: 12px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+}
+
+.zhiren {
+    width: 100%;
+    position: relative;
+}
+
+.propodation-img {
+    margin: 78px 0 0 298px;
+}
+
+.zhiren-introduce {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-left: 888px;
+    width: 742px;
+    height: 562px;
+    background: #f6fbfe;
+
+
+}
+
+.zhiren-introduce h3 {
+    font-size: 30px;
+    color: #1e489d;
+    /*width: 130px;*/
+    height: 46px;
+    margin: 188px 0 10px 112px;
+
+
+}
+
+.zhiren-introduce p {
+    width: 520px;
+    height: 174px;
+    font-size: 16px;
+    color: #282828;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+footer {
+    /*width: 1920px;*/
+    width: 100%;
+    height: 400px;
+    background: #325dcd;
+    background-image: url("../img/footer.png");
+    background-repeat: no-repeat;
+    background-position: center -20px;
+    margin: 0 auto;
+    margin-top: 126px;
+}
+
+.end {
+    width: 1920px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.zhiren-logo {
+    width: 240px;
+    height: 120px;
+    float: left;
+    margin-left: 355px;
+    margin-top: 184px;
+}
+
+.contact-us {
+    width: 280px;
+    height: 230px;
+    margin: 85px 0 0 287px;
+    float: left;
+    color: #fff;
+}
+
+.follow-us h3,
+.contact-us h3 {
+    font-size: 24px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.follow-us h3 span,
+.contact-us h3 span {
+    display: block;
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+
+.contact-us div {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.phone,
+.tel,
+.position {
+    padding-left: 23px;
+    position: relative;
+}
+
+.phone img,
+.tel img,
+.position img {
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+
+.line {
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 22px 0;
+}
+
+.follow-us {
+    width: 135px;
+    height: 235px;
+    float: right;
+    margin-right: 360px;
+    margin-top: 85px;
+    color: #fff;
+
+}
+
+.follow-us div {
+    text-align: center;
+    line-height: 30px;
+}
+
+.num {
+    /*width: 1920px;*/
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: #1e489d;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin: 0 auto;
+}
